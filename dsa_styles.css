@@ -1,0 +1,1184 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,700;1,700&display=swap');
+
+
+/* ----INDEX CSS------ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    box-shadow: 0 0 20px #662912;;
+    padding: 0.5%;
+
+}
+  
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+}
+  
+.header .header-text {
+    position: relative;   
+    font-size: 30px;
+    color: yellow;
+    text-decoration: none;
+    font-family: 'Arvo';
+    position: absolute;
+    left: 6%;
+    top: 16px;
+}
+
+.header .header-text-a {
+    font-size: 30px;
+    color: yellow;
+    text-decoration: none;
+    font-family: 'Arvo';
+    position: absolute;
+    left: 83%;
+    top: 16px;
+}
+  
+.nav {
+    color:yellow; 
+    font-size:40px; 
+    cursor:pointer; 
+    float: right; 
+    margin-left: 1400px;
+}
+
+.nav:hover {
+    color:#d08c2c;
+    padding-left: ;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  opacity: 100%;
+  background-color: #008037;
+  background-image: linear-gradient(rgba(36, 130, 32, 0.412), rgba(20, 61, 12, 0.796));
+  -moz-box-shadow:    -3px 0 5px 0 #3d2a0a;
+  -webkit-box-shadow: -3px 0 5px 0 #3d2a0a;
+  box-shadow:         -3px 0 5px 0 #662912;
+}
+
+.sidenav a {
+  padding: 8px 32px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: yellow;
+  display: block;
+  text-align: left;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: orange;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.background {
+    background-color:#008037;
+    opacity: 80%;
+    transition: 0.3s;
+}
+
+.background:hover {
+    background-color:#008037;
+    opacity: 100%;
+}
+
+.logo {
+    height: auto;
+    width: 600px;
+    position: absolute;
+    top: 37%;
+    left: 30%;
+    opacity: 85%; 
+    border-radius: 125px;
+    transition: 0.3s;
+}
+
+.logo:hover {
+    border: 3px solid green;
+    box-shadow: 0 0 20px 5px yellow; 
+}
+
+
+.logo:hover {
+    opacity: 100%;
+    transform: scale(1.05); 
+}
+
+.text-white {
+    font-family: 'Arvo';
+    font-size: 70px;
+    color: white;
+    display: inline-block;
+    padding-top: 80px;
+    padding-left: 100px;
+}
+
+.text-yellow {
+    font-family: 'Arvo';
+    font-size: 80px;
+    color: yellow;
+    padding-top: 80px;
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.text-yellow:hover {
+    color:yellow;
+    text-shadow:0px 0px 50px #fecb00 ;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+.button-admin {
+	color:#3d2a0a;
+    font-family: 'Arvo';
+    text-decoration: none;
+	height: 70px;
+    width: 200px;
+	cursor: pointer;
+	margin-top: 20%;
+    margin-left: 43%;
+	background: #d08c2c;
+    border: none;
+	border-radius: 15px;
+    -webkit-box-shadow: 0px 4px 1px #3d2a0a;
+    -moz-box-shadow: 0px 4px 1px #3d2a0a;
+    box-shadow: 0px 4px 1px #3d2a0a;
+    cursor: pointer;
+    font-size: 23px;
+}
+
+.button-admin:hover {
+    background-color:#fecb00;
+    box-shadow: 0 10px 15px #3d2a0a, 0 10px 10px orange;
+}
+
+.footer {
+    width: 100%;
+    padding: 30px;
+}
+
+.footer .main {
+    width: 100%;
+    margin: auto;
+}
+
+/* -----LOG-IN CSS ----- */
+
+.body-logo {
+    height: auto;
+    width: 400px;
+    position: absolute;
+    top: 15%;
+    left: 36.5%;
+    border-radius: 125px;
+    transition: 0.3s;
+}
+
+.body-logo:hover {
+    border: 3px solid green;
+    box-shadow: 0 0 20px 5px yellow; 
+}
+
+.form-box-login {
+    width: 350px;
+	height: 350px;
+	position: relative;
+	margin: auto;
+	top: 33%;
+    margin-bottom: 5%;
+	background: #d08c2c;
+    border: 3px solid #662912;
+    border-radius: 15px;
+	padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    height: 125px; 
+    width: 125px; 
+    border-radius:50%; 
+    position:absolute; 
+    top: -60px; 
+    left: calc(50% - 65px);
+}
+
+.text-login-a {
+    padding-top: 15%;
+    padding-bottom: 1%;
+    text-align: left;
+    margin-left: 10%;
+    font-size: 15px;
+    font-family: 'Arvo';
+    color: #3d2a0a;
+
+}
+
+.text-login-b {
+    padding-top: 5%;
+    padding-bottom: 1%;
+    text-align: left;
+    margin-left: 10%;
+    font-size: 15px;
+    font-family: 'Arvo';
+    color: #3d2a0a;
+
+}
+
+.input-username {
+	width: 80%;
+    height: 10%;
+    padding: auto;
+    margin-left: 30px;
+    padding-left: 10px;
+	border: none;
+	background: #dfad57;
+    color: #3d2a0a;
+    border-radius:7px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.input-username:focus { 
+    outline: none;
+    border-color: #3d2a0a;
+    box-shadow: 0 0 10px #3d2a0a;
+}
+
+.input-pass{
+	width: 80%;
+    height: 10%;
+    padding: auto;
+    margin-left: 30px;
+    padding-left: 10px;
+	border: none;
+	background: #dfad57;
+    color: #3d2a0a;
+    border-radius:7px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.input-pass:focus { 
+    outline: none;
+    border-color: #3d2a0a;
+    box-shadow: 0 0 10px #3d2a0a;
+}
+
+::-webkit-input-placeholder{
+    color:#662912;
+}
+
+.button-login {
+	color:#f4e4cb;
+    font-family: 'Arvo';
+    text-decoration: none;
+	height: 50px;
+    width: 150px;
+	cursor: pointer;
+	margin-top: 12%;
+    margin-left: 26%;
+	background: #3d2a0a;
+    border: none;
+	border-radius: 30px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.button-login:hover {
+    background-color: #662912;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+
+
+/* ------- DEVELOPERS CSS --------*/
+
+.form-box-dev {
+    width: 300px;
+	height: 250px;
+	position: absolute;
+	background: #d08c2c;
+    border: 3px solid #662912;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s;
+}
+
+.form-box-dev:hover {
+    transform: scale(1.02); 
+    background-color:#fecb00;
+    box-shadow: 0 10px 13px #3d2a0ad7, 0 10px 10px orange;
+}
+
+.dev-text{
+    font-family: 'Arvo';
+    font-size: 50px;
+    color: yellow;
+    padding-top: 2.5%;
+    padding-left: 39%;
+    display: inline-block;
+}
+
+.dev-pic {
+    height: 100px; 
+    width: 100px; 
+    border-radius:50%; 
+    position:absolute; 
+    transition: all .3s;
+    top: 10%;
+    left: 33%;
+    border: 3px solid  #662912;
+}
+
+.dev-pic:hover {
+    transform: scale(1.15); 
+    border: 2px solid #662912;
+}
+
+.dev-text-box {
+    font-size: 18px;
+    color: #662912;;
+    display: inline-block;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.dev-text-box-a {
+    font-size: 18px;
+    color: #662912;;
+    padding-top: 50%;
+    display: inline-block;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.dev-text-box-b {
+    font-size: 15px;
+    color: #662912;;
+    padding-top: 50%;
+    text-align: center;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* -----HOME CSS----- */
+
+.home-logo {
+    height: auto;
+    width: 400px;
+    position: absolute;
+    top: 14%;
+    left: 36.5%;
+    border-radius: 125px;
+    transition: 0.3s;
+}
+
+.home-logo:hover {
+    border: 3px solid green;
+    box-shadow: 0 0 20px 5px yellow; 
+}
+
+
+.form-box-home {
+    width: 380px;
+	height: 400px;
+	position: relative;
+	margin: auto;
+    margin-left: 37%;
+	margin-top: 13%;
+	background: #d08c2c;
+    border: 2px solid #7f564d;
+    border-radius: 15px;
+    border: 3px solid #662912;
+	padding: 10px;
+    overflow: hidden;
+    position:absolute; 
+}
+
+.home-flavor-size {
+	top: 125px;
+	position:absolute;
+    color: #662912;
+	width:280px;
+	transition:.5s;
+}
+
+.text-home {
+    font-family: 'Arvo';
+    color: #662912;
+    display: inline-block;
+    padding-top: 10%;
+    padding-left: 10%;
+    font-size: 32px;
+    text-align: center;
+}
+
+.button-add {
+	color:#3d2a0a;
+    font-family: 'Arvo';
+    text-decoration: none;
+	height: 40px;
+    width: 120px;
+	cursor: pointer;
+    margin-top: 12%;
+    margin-left: 15%;
+	background: #dfad57;
+    border: none;
+	border-radius: 15px;
+    -webkit-box-shadow: 0px 4px 1px #3d2a0a;
+    -moz-box-shadow: 0px 4px 1px #3d2a0a;
+    box-shadow: 0px 4px 1px #3d2a0a;
+    cursor: pointer;
+    font-size: 18px;
+    position:absolute; 
+}
+
+.button-add:hover {
+    background-color: #fecb00;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+
+.button-search {
+	color:#3d2a0a;
+    font-family: 'Arvo';
+    text-decoration: none;
+	height: 40px;
+    width: 120px;
+	cursor: pointer;
+    margin-top: 12%;
+    margin-left: 68%;
+	background: #dfad57;
+    border: none;
+	border-radius: 15px;
+    -webkit-box-shadow: 0px 4px 1px #3d2a0a;
+    -moz-box-shadow: 0px 4px 1px #3d2a0a;
+    box-shadow: 0px 4px 1px #3d2a0a;
+    cursor: pointer;
+    font-size: 18px;
+    position:absolute; 
+}
+
+.button-search:hover {
+    background-color:#fecb00;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+
+.button-display {
+	color:#3d2a0a;
+    font-family: 'Arvo';
+    text-decoration: none;
+	height: 40px;
+    width: 120px;
+	cursor: pointer;
+    margin-top: 35%;
+    margin-left: 15%;
+	background: #dfad57;
+    border: none;
+	border-radius: 15px;
+    -webkit-box-shadow: 0px 4px 1px #3d2a0a;
+    -moz-box-shadow: 0px 4px 1px #3d2a0a;
+    box-shadow: 0px 4px 1px #3d2a0a;
+    cursor: pointer;
+    font-size: 18px;
+    position:absolute; 
+}
+
+.button-display:hover {
+    background-color: #fecb00;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+
+.button-delete {
+	color:#3d2a0a;
+    font-family: 'Arvo';
+    text-decoration: none;
+	height: 40px;
+    width: 120px;
+	cursor: pointer;
+    margin-top: 35%;
+    margin-left: 68%;
+	background: #dfad57;
+    border: none;
+	border-radius: 15px;
+    -webkit-box-shadow: 0px 4px 1px #3d2a0a;
+    -moz-box-shadow: 0px 4px 1px #3d2a0a;
+    box-shadow: 0px 4px 1px #3d2a0a;
+    cursor: pointer;
+    font-size: 18px;
+    position:absolute; 
+}
+
+.button-delete:hover {
+    background-color: #fecb00;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+
+.button-update {
+	color:#3d2a0a;
+    font-family: 'Arvo';
+    text-decoration: none;
+	height: 40px;
+    width: 120px;
+	cursor: pointer;
+    margin-top: 60%;
+    margin-left: 42%;
+	background: #dfad57;
+    border: none;
+	border-radius: 15px;
+    -webkit-box-shadow: 0px 4px 1px #3d2a0a;
+    -moz-box-shadow: 0px 4px 1px #3d2a0a;
+    box-shadow: 0px 4px 1px #3d2a0a;
+    cursor: pointer;
+    font-size: 18px;
+    position:absolute; 
+}
+
+.button-update:hover {
+    background-color: #fecb00;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+
+
+#flavor {
+	left:50px;
+}
+
+#flavor input {
+	color:#662912;
+	font-size:15;
+}
+
+#size {
+	left:450px;
+}
+
+#size input {
+	color:#662912;
+	font-size: 15;
+}
+
+/*----ADD FLAVOR & SIZE POP-UP CSS-------*/
+
+.popupA { 
+    display: none; 
+}
+
+.popupA.open { 
+    display: block; 
+}
+
+.blockerA {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: ' ';
+    background: rgba(0,0,0,.5);
+}
+
+.popupA .contents {
+    border: 2px solid #dfad57;
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    display: absolute;
+    align-items: center;
+    justify-content: center;
+    background: #533b11;
+    position: unset;
+    transform: translate(10%, -27%);
+}
+
+.popupA .add {
+	width: 80%;
+    height: 20%;
+    padding: auto;
+    margin-top: 15%;
+    margin-left: 30px;
+    padding-left: 6px;
+    position: absolute;
+	border: none;
+	background: #d08c2c;
+    color: #3d2a0a;
+    border-radius:5px;
+}
+
+.popupA .add:focus { 
+    outline: none;
+    box-shadow: 0 0 5px #dfad57;
+}
+
+.popupA .button-back {
+	color:#f4e4cb;
+    font-family: 'Arvo';
+    text-decoration: none;
+	height: 40px;
+    width: 100px;
+	cursor: pointer;
+	top: 78%;
+    left: 12.5%;
+	background: #d08c2c;
+    border: none;
+	border-radius: 30px;
+    font-size: 13px;
+    position: absolute;
+}
+
+.popupA .button-back:hover {
+    background-color: #662912;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.popupA .button-add-submit {
+	color:#f4e4cb;
+    font-family: 'Arvo';
+    text-decoration: none;
+	height: 40px;
+    width: 100px;
+	cursor: pointer;
+	top: 78%;
+    left: 52%;
+	background: #d08c2c;
+    border: none;
+	border-radius: 30px;
+    font-size: 13px;
+    position: absolute;
+}
+
+.popupA .button-add-submit:hover {
+    background-color: #662912;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+/* --------SEARCH FLAVOR & SIZE POP-UP CSS-------- */
+
+.popupB { 
+    display: none; 
+}
+
+.popupB.open { 
+    display: block; 
+}
+
+.blockerB {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: ' ';
+    background: rgba(0,0,0,.5);
+}
+
+.popupB .contents {
+    border: 2px solid #dfad57;
+    border-radius: 15px;
+    width: 300px;
+    height: 250px;
+    display: absolute;
+    align-items: center;
+    justify-content: center;
+    background: #533b11;
+    position: unset;
+    transform: translate(10%, -21%);
+}
+
+.popupB .search {
+	width: 80%;
+    height: 20%;
+    padding: auto;
+    margin-top: 20%;
+    margin-left: 30px;
+    padding-left: 6px;
+    position: absolute;
+	border: none;
+	background: #d08c2c;
+    color: #3d2a0a;
+    border-radius:5px;
+}
+
+.popupB .search:focus { 
+    outline: none;
+    box-shadow: 0 0 5px #dfad57;
+}
+
+.popupB .button-back {
+	color:#f4e4cb;
+    font-family: 'Arvo';
+    text-decoration: none;
+	height: 40px;
+    width: 100px;
+	cursor: pointer;
+    margin-top: 38%;
+    left: 12.5%;
+	background: #d08c2c;
+    border: none;
+	border-radius: 30px;
+    font-size: 13px;
+    position: absolute;
+}
+
+.popupB .button-back:hover {
+    background-color: #662912;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.popupB .button-search-submit {
+	color:#f4e4cb;
+    font-family: 'Arvo';
+    text-decoration: none;
+	height: 40px;
+    width: 100px;
+	cursor: pointer;
+    margin-top: 38%;
+    left: 52%;
+	background: #d08c2c;
+    border: none;
+	border-radius: 30px;
+    font-size: 13px;
+    position: absolute;
+}
+
+.popupB .button-search-submit:hover {
+    background-color: #662912;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+
+/*----DISPLAY FLAVOR & SIZE POP-UP CSS-------*/
+
+.popupC { 
+    display: none; 
+}
+
+.popupC.open { 
+    display: block; 
+}
+
+.blockerC {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: ' ';
+    background: rgba(0,0,0,.5);
+}
+
+.popupC .contents {
+    border: 2px solid #dfad57;
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    display: absolute;
+    align-items: center;
+    justify-content: center;
+    background: #533b11;
+    position: absolute;
+    overflow: auto;
+    padding-bottom: 100px;
+    transform: translate(10%, -30%);
+
+}
+
+
+.popupC .display {
+	width: 80%;
+    height: 20%;
+    padding: auto;
+    margin-top: 15%;
+    margin-left: 25px;
+    padding-left: 6px;
+    position: absolute;
+	border: none;
+    border-radius:5px;
+}
+
+.popupC .button-back {
+	color:#f4e4cb;
+    font-family: 'Arvo';
+    text-decoration: none;
+	height: 40px;
+    width: 100px;
+	cursor: pointer;
+	margin-top: 10%;
+    left: 33%;
+	background: #d08c2c;
+    border: none;
+	border-radius: 30px;
+    font-size: 13px;
+    position: fixed;
+}
+
+.popupC .button-back:hover {
+    background-color: #662912;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+
+/*----DELETE FLAVOR & SIZE POP-UP CSS-------*/
+
+.popupD { 
+    display: none; 
+}
+
+.popupD.open { 
+    display: block; 
+}
+
+.blockerD {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: ' ';
+    background: rgba(0,0,0,.5);
+}
+
+.popupD .contents {
+    border: 2px solid #dfad57;
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    display: absolute;
+    align-items: center;
+    justify-content: center;
+    background: #533b11;
+    position: absolute;
+    overflow: auto;
+    padding-bottom: 100px;
+    transform: translate(10%, -30%);
+}
+
+.popupD .delete {
+	width: 80%;
+    height: 20%;
+    padding: auto;
+    margin-top: 15%;
+    margin-left: 25px;
+    padding-left: 6px;
+    position: absolute;
+	border: none;
+	background: #d08c2c;
+    color: #3d2a0a;
+    border-radius:5px;
+}
+
+.popupD .delete:focus { 
+    outline: none;
+    box-shadow: 0 0 5px #dfad57;
+}
+
+.popupD .button-back {
+	color:#f4e4cb;
+    font-family: 'Arvo';
+    text-decoration: none;
+	height: 40px;
+    width: 100px;
+	cursor: pointer;
+	margin-top: 10%;
+    left: 33%;
+	background: #d08c2c;
+    border: none;
+	border-radius: 30px;
+    font-size: 13px;
+    position: absolute;
+    overflow: auto;
+    
+}
+
+.popupD .button-back:hover {
+    background-color: #662912;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+
+
+/*----UDPATE FLAVOR & SIZE POP-UP CSS-------*/
+
+.popupE { 
+    display: none; 
+}
+
+.popupE.open { 
+    display: block; 
+}
+
+.blockerE {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: ' ';
+    background: rgba(0,0,0,.5);
+}
+
+.popupE .contents {
+    border: 2px solid #dfad57;
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    display: absolute;
+    align-items: center;
+    justify-content: center;
+    background: #533b11;
+    position: absolute;
+    overflow: auto;
+    padding-bottom: 100px;
+    transform: translate(10%, -30%);
+}
+
+.popupE .update {
+	width: 80%;
+    height: 20%;
+    padding: auto;
+    margin-top: 10%;
+    margin-left: 30px;
+    padding-left: 6px;
+    position: absolute;
+	border: none;
+	background: #d08c2c;
+    color: #3d2a0a;
+    border-radius:5px;
+}
+
+.popupE .update:focus { 
+    outline: none;
+    box-shadow: 0 0 5px #dfad57;
+}
+
+.popupE .button-back {
+	color:#f4e4cb;
+    font-family: 'Arvo';
+    text-decoration: none;
+	height: 40px;
+    width: 100px;
+	cursor: pointer;
+    margin-top: 10%;
+    left: 33%;
+	background: #d08c2c;
+    border: none;
+	border-radius: 30px;
+    font-size: 13px;
+    position: absolute;
+}
+
+.popupE .button-back:hover {
+    background-color: #662912;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+
+
+/* ----- CHEKERED CSS ----- */
+
+.chekered-box {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+}
+
+.chekered-box td {
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+}
+
+td.highlight {
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    margin-left:10px;
+}
+
+
+/*----- UPDATE_DATA CSS ----- */
+
+.form-box-update {
+    width: 380px;
+	height: 400px;
+	position: relative;
+	margin: auto;
+    margin-left: 37%;
+	margin-top: 13%;
+	background: #d08c2c;
+    border: 2px solid #7f564d;
+    border-radius: 15px;
+    border: 3px solid #662912;
+	padding: 10px;
+    position:absolute; 
+}
+
+.text-form-update {
+    font-family: 'Arvo';
+    color: #662912;
+    display: inline-block;
+    padding-top: 10%;
+    padding-left: 30%;
+    font-size: 32px;
+    text-align: center;
+}
+
+.text-box-update {
+	width: 80%;
+    padding: auto;
+    margin-left: 30px;
+    padding-left: 10px;
+	border: none;
+	background: #dfad57;
+    color: #3d2a0a;
+    border-radius:7px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.text-box-update:focus { 
+    outline: none;
+    border-color: #3d2a0a;
+    box-shadow: 0 0 10px #3d2a0a;
+}
+
+.text-update-a {
+    padding-top: 3%;
+    padding-bottom: 1%;
+    text-align: left;
+    margin-left: 10%;
+    font-size: 15px;
+    font-family: 'Arvo';
+    color: #3d2a0a;
+}
+
+.text-update-b {
+    padding-left: 27%;
+    color: #662912;
+    font-size: 16px;
+    font-family: "Helvetica";
+    display: inline-block;
+    text-decoration: none;
+}
+
+.text-update-b:hover {
+    color: #fecb00;
+
+}
+
+.button-update-submit {
+	color:#f4e4cb;
+    font-family: 'Arvo';
+    text-decoration: none;
+	height: 40px;
+    width: 100px;
+	cursor: pointer;
+    top: 83%;
+    left: 36%;
+	background: #662912;
+    border: none;
+	border-radius: 30px;
+    font-size: 13px;
+    position: absolute;
+}
+
+.button-update-submit:hover {
+    background-color: #fecb00;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+/*----- SEARCH_DATA CSS ----- */
+
+.form-box-search {
+    width: 380px;
+	height: 400px;
+	position: relative;
+	margin: auto;
+    margin-left: 37%;
+	margin-top: 13%;
+	background: #d08c2c;
+    border: 2px solid #7f564d;
+    border-radius: 15px;
+    border: 3px solid #662912;
+	padding: 10px;
+    overflow: auto;
+    padding-bottom: 100px;
+    position:absolute; 
+}
+
+.text-form-search {
+    font-family: 'Arvo';
+    color: #662912;
+    display: inline-block;
+    padding-top: 10%;
+    padding-left: 10%;
+    font-size: 32px;
+    text-align: center;
+}
+
+.text-search-a {
+    padding-top: 5%;
+    padding-bottom: 1%;
+    text-align: left;
+    margin-left: 10%;
+    font-size: 20px;
+    font-family: 'Arvo';
+    color: #3d2a0a;
+
+}
+
+.button-back-search {
+	color:#f4e4cb;
+    font-family: 'Arvo';
+    text-decoration: none;
+	height: 40px;
+    width: 100px;
+	cursor: pointer;
+    margin-top: 5%;
+    left: 36%;
+	background: #662912;
+    border: none;
+	border-radius: 30px;
+    font-size: 13px;
+    position: absolute;
+}
+
+.button-back-search:hover {
+    background-color: #fecb00;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
